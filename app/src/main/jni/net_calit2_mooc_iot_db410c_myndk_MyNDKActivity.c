@@ -7,5 +7,5 @@
  */
 JNIEXPORT jstring JNICALL Java_net_calit2_mooc_iot_1db410c_myndk_MyNDKActivity_getStringFromNDK
   (JNIEnv * env, jobject obj){
-    return (*env)->NewStringUTF(env,"Hello DragonBoard! from: NDK");
+    return (*env)->NewStringUTF(env,"Hello DragonBoard! from: NDK 1-9-2016 5:02pm");
 }
