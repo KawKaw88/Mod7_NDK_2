@@ -70,7 +70,7 @@ JNIEXPORT jstring JNICALL Java_net_calit2_mooc_iot_1db410c_myndk_MyNDKActivity_g
  * Method:    getStringFromNDK_Tjs1
  * Signature: ()Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_net_calit2_mooc_iot_1db410c_myndk_MyNDKActivity_getStringFromNDK_1Tjs1
+JNIEXPORT jstring JNICALL Java_net_calit2_mooc_iot_1db410c_myndk_MyNDKActivity_getStringFromNDKTjs1
   (JNIEnv *, jobject);
 
 #ifdef __cplusplus

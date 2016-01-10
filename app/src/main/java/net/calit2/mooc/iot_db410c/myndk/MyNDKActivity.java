@@ -21,7 +21,7 @@ public class MyNDKActivity extends Activity {
         ((TextView)findViewById(R.id.tv)).setText(getStringFromNDK());
 
         // $TODO@TJS 1-10-2016 TJS generated new *.h file and new function
-        //((TextView)findViewById(R.id.tv)).setText(getStringFromNDK_1Tjs1());
+        ((TextView)findViewById(R.id.tv)).setText(getStringFromNDKTjs1());
     }
 
     @Override
@@ -49,5 +49,5 @@ public class MyNDKActivity extends Activity {
     public native String getStringFromNDK();
 
     // $TODO@TJS 1-10-2016 added to try creating new C++ function
-    public native String getStringFromNDK_Tjs1();
+    public native String getStringFromNDKTjs1();
 }
