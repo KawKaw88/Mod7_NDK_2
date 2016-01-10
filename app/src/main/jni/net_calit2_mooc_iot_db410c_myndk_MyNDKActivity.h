@@ -65,6 +65,14 @@ extern "C" {
 JNIEXPORT jstring JNICALL Java_net_calit2_mooc_iot_1db410c_myndk_MyNDKActivity_getStringFromNDK
   (JNIEnv *, jobject);
 
+/*
+ * Class:     net_calit2_mooc_iot_db410c_myndk_MyNDKActivity
+ * Method:    getStringFromNDK_Tjs1
+ * Signature: ()Ljava/lang/String;
+ */
+JNIEXPORT jstring JNICALL Java_net_calit2_mooc_iot_1db410c_myndk_MyNDKActivity_getStringFromNDK_1Tjs1
+  (JNIEnv *, jobject);
+
 #ifdef __cplusplus
 }
 #endif
